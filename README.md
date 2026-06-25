@@ -1,13 +1,11 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&pause=1000&color=4CAF50&center=true&vCenter=true&width=700&lines=Upload+%E2%86%92+Analyze+%E2%86%92+Detect+%E2%86%92+Recommend+%E2%80%94+Smart+Agriculture+AI" alt="Typing SVG" />
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Customer%20Intelligence%20%26%20Revenue%20Optimization&fontSize=30&fontColor=ffffff&fontAlignY=38&desc=Four%20Business%20Questions%20Answered%20Directly%20From%20MySQL&descAlignY=58&descSize=16&descColor=a8d8ea)
 
-# 🌱 AI-Powered Fertilizer Deficiency Detection
-
-[![View Project](https://img.shields.io/badge/🌱%20Deploy-Docker%20Compose-1a3a1a?style=for-the-badge&logoColor=white)](#%EF%B8%8F-quick-start)
-[![License](https://img.shields.io/badge/License-MIT-2d6a2d?style=for-the-badge)](#-license)
-[![Stars](https://img.shields.io/github/stars/MuhammadAdnan586/Fertilizer_Deficiency_Detection?style=for-the-badge&color=4caf50&label=Stars)](https://github.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/MuhammadAdnan586/Fertilizer_Deficiency_Detection?style=for-the-badge&color=4caf50&label=Updated)](https://github.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/commits/main)
+[![View Project](https://img.shields.io/badge/🌐%20Run-Locally-0f2027?style=for-the-badge&logoColor=white)](#-quick-start)
+[![License](https://img.shields.io/badge/License-MIT-2c5364?style=for-the-badge)](#-license)
+[![Stars](https://img.shields.io/github/stars/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization?style=for-the-badge&color=2c5364&label=Stars)](https://github.com/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization?style=for-the-badge&color=2c5364&label=Updated)](https://github.com/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization/commits/main)
 
 </div>
 
@@ -15,66 +13,65 @@
 
 ### 📌 About the Project
 
-**AI-Powered Fertilizer Deficiency Detection** is a full-stack intelligent agriculture system that enables farmers and agronomists to upload plant/soil images or input crop data and instantly detect nutrient deficiencies — then receive AI-driven fertilizer recommendations — without needing any technical expertise.
+**Customer Intelligence & Revenue Optimization** is a full-stack SQL-driven analytics dashboard that answers four real business questions straight from a MySQL database — **who your best customers are, whether they come back, what they buy together, and where revenue is leaking** — using the Olist Brazilian e-commerce dataset (2016–2018).
 
-> Identifying fertilizer deficiencies manually requires expert agronomists, lab testing, and days of waiting. This platform compresses that entire process — from raw data to actionable fertilizer recommendations — into seconds using computer vision and AI.
+> Every number on the dashboard is computed live by a SQL query, not pre-baked — the FastAPI backend queries MySQL on each request and the Next.js frontend renders the result.
+
+---
+
+### 📊 Overview Metrics
+
+| Metric | Value |
+|---|---|
+| 👥 Total Customers | **96,096** unique buyers |
+| 💰 Revenue Analysed | **$15.42M** (delivered orders only) |
+| 🧾 Avg Order Value | **$159.86** per delivered order |
+| ⚠️ Revenue at Risk | **$270k** (canceled + unavailable) |
 
 ---
 
 ### ✨ Key Features
 
-**🔹 Core Detection Engine**
-- Deep learning-based plant disease & nutrient deficiency detection
-- Multi-class classification (Nitrogen, Phosphorus, Potassium, Micronutrient deficiencies)
-- Supports both image uploads and structured soil/crop data input
+**01 · RFM Customer Segmentation**
+93,357 customers scored on Recency, Frequency & Monetary value, grouped into actionable segments — *Champions, Loyal Customers, New Customers, At Risk, Need Attention, Lost*.
+> 💡 Champions are just 1.1% of customers but spend 2.3x the overall average — the highest-value segment by far.
 
-**🔹 AI Intelligence Layer**
-- **Computer Vision Model** — detect deficiencies directly from leaf/plant images
-- **Soil Data Analyzer** — quality scoring based on NPK levels and pH values
-- **AI Chat Assistant** — ask questions about your crop health in natural language
-- **Fertilizer Recommendation Engine** — tailored recommendations based on crop type and deficiency
-- **Auto PDF Reports** — one-click professional diagnosis report generation
+**02 · Repeat-Purchase & Cohort Retention**
+Every delivered customer grouped by purchase frequency to test whether the business retains buyers or only acquires them once.
+> 💡 97% of customers never returned — only 3% made a repeat purchase, a clear retention gap.
 
-**🔹 Production & Web Features**
-- **Full-Stack Web App** — Next.js frontend with FastAPI/Python backend
-- **REST API** — prediction endpoint for external integrations
-- **Role-Based Access** — farmer, agronomist, and admin roles
-- **Crop History Tracking** — maintain diagnosis history per field/crop cycle
-- **Responsive UI** — works on desktop and mobile devices
-- **Dockerized Deployment** — production-ready with Docker Compose
+**03 · Product Affinity — Bought Together**
+Multi-item orders broken into category pairs to reveal which products complement each other in a single basket.
+> 💡 "cama mesa banho" + "moveis decoracao" appear together 71x more than any other pair — a strong cross-sell signal.
+
+**04 · Revenue Leakage Detection**
+Canceled and unavailable orders traced back to product category to size the revenue lost to fulfilment failure.
+> 💡 1,234 canceled/unavailable orders cost $269,735.11 — the "cool stuff" category carries the largest single-category loss.
+
+Each module ends with a data-backed **recommendation card**, turning the analysis into an actionable next step instead of just a chart.
 
 ---
 
-### 🖼️ Screenshots
+### 🖼️ Dashboard Preview
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <b>🏠 Dashboard</b><br/><br/>
-      <img src="https://raw.githubusercontent.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/main/WhatsApp%20Image%202026-06-25%20at%203.57.05%20PM.jpeg" width="400" alt="Dashboard"/>
-    </td>
-    <td align="center" width="50%">
-      <b>📷 Image Upload & Detection</b><br/><br/>
-      <img src="https://raw.githubusercontent.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/main/WhatsApp%20Image%202026-06-25%20at%203.57.06%20PM%20(2).jpeg" width="400" alt="Detection"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%">
-      <b>🧪 Soil Data Analysis</b><br/><br/>
-      <img src="https://raw.githubusercontent.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/main/WhatsApp%20Image%202026-06-25%20at%203.57.06%20PM%20(1).jpeg" width="400" alt="Soil Analysis"/>
-    </td>
-    <td align="center" width="50%">
-      <b>🌿 Deficiency Results</b><br/><br/>
-      <img src="https://raw.githubusercontent.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/main/WhatsApp%20Image%202026-06-25%20at%203.57.06%20PM.jpeg" width="400" alt="Results"/>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" colspan="2">
-      <b>💊 Fertilizer Recommendation Panel</b><br/><br/>
-      <img src="https://raw.githubusercontent.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection/main/WhatsApp%20Image%202026-06-25%20at%203.57.07%20PM.jpeg" width="400" alt="Recommendations"/>
-    </td>
-  </tr>
-</table>
+<div align="center">
+
+**🏠 Overview**
+<img src="WhatsApp%20Image%202026-06-25%20at%204.11.26%20PM.jpeg" width="85%" alt="Dashboard overview"/>
+
+**01 · RFM Customer Segmentation**
+<img src="WhatsApp%20Image%202026-06-25%20at%204.11.27%20PM.jpeg" width="85%" alt="RFM customer segmentation"/>
+
+**02 · Repeat-Purchase & Cohort Retention**
+<img src="WhatsApp%20Image%202026-06-25%20at%204.11.27%20PM%20%281%29.jpeg" width="85%" alt="Cohort retention"/>
+
+**03 · Product Affinity**
+<img src="WhatsApp%20Image%202026-06-25%20at%204.11.27%20PM%20%282%29.jpeg" width="85%" alt="Product affinity"/>
+
+**04 · Revenue Leakage Detection**
+<img src="WhatsApp%20Image%202026-06-25%20at%204.11.28%20PM.jpeg" width="85%" alt="Revenue leakage detection"/>
+
+</div>
 
 ---
 
@@ -83,148 +80,112 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![Recharts](https://img.shields.io/badge/Recharts-2c5364?style=flat-square&logoColor=white)
 
 | Layer | Technology |
 |---|---|
-| Backend | FastAPI (Python) |
-| Frontend | Next.js + TypeScript |
-| Database | MySQL 8.0 |
-| ML / CV Libraries | TensorFlow / PyTorch, OpenCV, Scikit-learn |
-| Image Processing | Pillow, OpenCV |
-| Containerization | Docker + Docker Compose |
-| Reverse Proxy | Nginx |
-| Auth | JWT + RBAC |
-| Reports | ReportLab (PDF) |
+| Backend | FastAPI + SQLAlchemy + PyMySQL |
+| Frontend | Next.js 14 + React 18 |
+| Charts | Recharts |
+| Styling | Tailwind CSS |
+| Icons | Lucide React |
+| Database | MySQL 8.0 — Olist e-commerce dataset |
+
+---
+
+### 📡 API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|--------------|
+| GET | `/api/overview` | Header KPIs — customers, revenue, AOV, revenue at risk |
+| GET | `/api/rfm` | RFM segment distribution |
+| GET | `/api/cohort` | Repeat-purchase / cohort breakdown |
+| GET | `/api/affinity` | Top product-category pairs bought together |
+| GET | `/api/leakage` | Lost revenue by order status & category |
 
 ---
 
 ### ⚙️ Quick Start
 
+This project runs as two separate services — **backend** (FastAPI + MySQL) and **frontend** (Next.js) — each in its own terminal.
+
 ```bash
 # 1. Clone the repo
-git clone https://github.com/MuhammadAdnan586/Fertilizer_Deficiency_Detection.git
-cd Fertilizer_Deficiency_Detection
+git clone https://github.com/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization.git
+cd Customer-Intelligence-Revenue-Optimization
 
-# 2. Setup environment
-cp .env.example .env
-# Edit .env with your DB password, SECRET_KEY, ANTHROPIC_API_KEY
+# 2. Backend setup
+cd backend
+python -m venv venv
+venv\Scripts\activate          # Windows  |  source venv/bin/activate on macOS/Linux
+pip install -r requirements.txt
+copy .env.example .env          # then set your MySQL DB_PASSWORD
+uvicorn main:app --reload --port 8000
 
-# 3. Deploy with Docker
-docker-compose up --build
+# 3. Frontend setup (new terminal)
+cd frontend
+npm install
+copy .env.local.example .env.local
+npm run dev
 ```
 
 | Service | URL |
 |---|---|
-| Frontend App | http://localhost |
+| Dashboard | http://localhost:3000 |
 | API Docs (Swagger) | http://localhost:8000/docs |
-| Detection API | http://localhost:8000/api/detect |
+
+> Full step-by-step setup, including common troubleshooting, is in [`RUN_LOCALLY.md`](RUN_LOCALLY.md).
 
 ---
 
 ### 📂 Project Structure
 
 ```
-Fertilizer_Deficiency_Detection/
-├── FertilizerProject/
-│   ├── backend/
-│   │   ├── api/              # FastAPI routes & endpoints
-│   │   ├── models/           # ML model definitions & weights
-│   │   ├── services/         # Detection & recommendation logic
-│   │   └── main.py           # Application entry point
-│   ├── frontend/
-│   │   ├── components/       # React UI components
-│   │   ├── pages/            # Next.js pages
-│   │   └── styles/           # CSS / Tailwind styles
-│   ├── ml/
-│   │   ├── training/         # Model training scripts
-│   │   ├── datasets/         # Dataset preparation
-│   │   └── evaluate.py       # Model evaluation
-│   └── docker-compose.yml
-├── .gitignore
-└── README.md
+Customer-Intelligence-Revenue-Optimization/
+├── backend/
+│   ├── main.py            # FastAPI app & routes
+│   ├── database.py        # SQLAlchemy engine / MySQL connection
+│   ├── queries.py          # All SQL: overview, RFM, cohort, affinity, leakage
+│   └── requirements.txt
+├── frontend/
+│   ├── app/
+│   │   ├── components/
+│   │   │   ├── KpiCard.js
+│   │   │   ├── RfmSection.js
+│   │   │   ├── CohortSection.js
+│   │   │   ├── AffinitySection.js
+│   │   │   ├── LeakageSection.js
+│   │   │   ├── InsightNote.js
+│   │   │   └── SectionHeader.js
+│   │   ├── page.js
+│   │   └── layout.js
+│   └── package.json
+└── RUN_LOCALLY.md
 ```
-
----
-
-### 🌱 Supported Deficiencies
-
-| Nutrient | Deficiency Symptoms Detected |
-|---|---|
-| **Nitrogen (N)** | Yellowing of older leaves, stunted growth |
-| **Phosphorus (P)** | Purple/reddish discoloration, poor root development |
-| **Potassium (K)** | Leaf edge scorching, weak stems |
-| **Magnesium (Mg)** | Interveinal chlorosis on older leaves |
-| **Iron (Fe)** | Interveinal chlorosis on young leaves |
-| **Calcium (Ca)** | Tip burn, blossom-end rot |
-
----
-
-### 🚀 API Usage
-
-```python
-import requests
-
-# Detect deficiency from image
-with open("leaf_image.jpg", "rb") as f:
-    response = requests.post(
-        "http://localhost:8000/api/detect",
-        files={"image": f},
-        data={"crop_type": "wheat"}
-    )
-
-result = response.json()
-print(result["deficiency"])        # e.g. "Nitrogen Deficiency"
-print(result["confidence"])        # e.g. 0.94
-print(result["recommendation"])    # Fertilizer recommendation
-```
-
----
-
-### 📊 Model Performance
-
-| Model | Accuracy | Precision | Recall | F1-Score |
-|---|---|---|---|---|
-| CNN (Custom) | 91.2% | 90.8% | 91.5% | 91.1% |
-| ResNet-50 | 94.7% | 94.2% | 95.1% | 94.6% |
-| EfficientNet-B3 | **96.3%** | **96.0%** | **96.5%** | **96.2%** |
 
 ---
 
 ### 🤝 Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization/issues) or open a pull request.
 
 ---
 
 ### 📄 License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-### 👨‍💻 Author
-
-**Muhammad Adnan**
-
-[![GitHub](https://img.shields.io/badge/GitHub-MuhammadAdnan586-1a3a1a?style=flat-square&logo=github&logoColor=white)](https://github.com/MuhammadAdnan586)
+This project is licensed under the **MIT License**.
 
 ---
 
 <div align="center">
 
----
-*Built with ❤️ using Python, FastAPI, Next.js & Computer Vision*
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer)
+
+Made with ❤️ by [**Muhammad Adnan**](https://github.com/MuhammadAdnan586) — Data Scientist | ML Engineer
+[LinkedIn](https://www.linkedin.com/in/m-adnan-12a816402) • [Portfolio](https://portfolio-eight-delta-7blam1yft8.vercel.app)
 
 </div>
