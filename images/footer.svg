@@ -1,0 +1,16 @@
+<svg width="900" height="120" viewBox="0 0 900 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="footerbg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c5364"/>
+      <stop offset="50%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#0f2027"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="120" fill="url(#footerbg)"/>
+  <!-- Top wave -->
+  <path d="M0,0 C150,30 300,5 450,25 C600,45 750,10 900,30 L900,0 Z" fill="#0a1a20" fill-opacity="0.5"/>
+  <path d="M0,0 C200,20 400,0 600,18 C750,30 850,8 900,20 L900,0 Z" fill="#0f2027" fill-opacity="0.4"/>
+  <!-- Decorative circles -->
+  <circle cx="100" cy="90" r="70" fill="#0f2027" fill-opacity="0.3"/>
+  <circle cx="820" cy="20" r="80" fill="#2c5364" fill-opacity="0.2"/>
+</svg>

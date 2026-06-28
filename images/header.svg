@@ -1,0 +1,37 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f2027"/>
+      <stop offset="50%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#2c5364"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f2027;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#2c5364;stop-opacity:0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="200" fill="url(#bg)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="60" cy="40" r="120" fill="#2c5364" fill-opacity="0.25"/>
+  <circle cx="860" cy="170" r="100" fill="#0f2027" fill-opacity="0.4"/>
+  <circle cx="800" cy="30" r="60" fill="#203a43" fill-opacity="0.3"/>
+
+  <!-- Bottom wave shape -->
+  <path d="M0,155 C150,130 300,175 450,155 C600,135 750,170 900,150 L900,200 L0,200 Z" fill="#0f2027" fill-opacity="0.5"/>
+  <path d="M0,170 C200,150 400,185 600,165 C750,148 850,175 900,165 L900,200 L0,200 Z" fill="#0a1a20" fill-opacity="0.6"/>
+
+  <!-- Main title -->
+  <text x="450" y="82" font-family="Segoe UI, Arial, sans-serif" font-size="26" font-weight="600" fill="#ffffff" text-anchor="middle" letter-spacing="-0.5">Customer Intelligence &amp; Revenue Optimization</text>
+
+  <!-- Subtitle -->
+  <text x="450" y="112" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="400" fill="#a8d8ea" text-anchor="middle" letter-spacing="0.3">Four Business Questions Answered Directly From MySQL</text>
+
+  <!-- Decorative line -->
+  <line x1="340" y1="125" x2="560" y2="125" stroke="#a8d8ea" stroke-width="0.8" stroke-opacity="0.4"/>
+
+  <!-- Bottom tag -->
+  <text x="450" y="148" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#7fb3c8" text-anchor="middle" letter-spacing="2" font-weight="400">FASTAPI · NEXT.JS · MYSQL · RECHARTS</text>
+</svg>
