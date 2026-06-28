@@ -1,11 +1,24 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Customer%20Intelligence%20%26%20Revenue%20Optimization&fontSize=30&fontColor=ffffff&fontAlignY=38&desc=Four%20Business%20Questions%20Answered%20Directly%20From%20MySQL&descAlignY=58&descSize=16&descColor=a8d8ea)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Customer%20Intelligence%20%26%20Revenue%20Optimization&fontSize=28&fontColor=ffffff&fontAlignY=40&desc=Four%20Business%20Questions%20Answered%20Directly%20From%20MySQL&descAlignY=60&descSize=15&descColor=a8d8ea" alt="Header" />
+
+<br/>
 
 [![View Project](https://img.shields.io/badge/🌐%20Run-Locally-0f2027?style=for-the-badge&logoColor=white)](#-quick-start)
 [![License](https://img.shields.io/badge/License-MIT-2c5364?style=for-the-badge)](#-license)
 [![Stars](https://img.shields.io/github/stars/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization?style=for-the-badge&color=2c5364&label=Stars)](https://github.com/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization/stargazers)
 [![Last Commit](https://img.shields.io/github/last-commit/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization?style=for-the-badge&color=2c5364&label=Updated)](https://github.com/MuhammadAdnan586/Customer-Intelligence-Revenue-Optimization/commits/main)
+
+<br/>
+
+<table>
+<tr>
+<td align="center"><b>👥 96,096</b><br/><sub>Unique Customers</sub></td>
+<td align="center"><b>💰 $15.42M</b><br/><sub>Revenue Analysed</sub></td>
+<td align="center"><b>🧾 $159.86</b><br/><sub>Avg Order Value</sub></td>
+<td align="center"><b>⚠️ $270K</b><br/><sub>Revenue at Risk</sub></td>
+</tr>
+</table>
 
 </div>
 
@@ -16,17 +29,6 @@
 **Customer Intelligence & Revenue Optimization** is a full-stack SQL-driven analytics dashboard that answers four real business questions straight from a MySQL database — **who your best customers are, whether they come back, what they buy together, and where revenue is leaking** — using the Olist Brazilian e-commerce dataset (2016–2018).
 
 > Every number on the dashboard is computed live by a SQL query, not pre-baked — the FastAPI backend queries MySQL on each request and the Next.js frontend renders the result.
-
----
-
-### 📊 Overview Metrics
-
-| Metric | Value |
-|---|---|
-| 👥 Total Customers | **96,096** unique buyers |
-| 💰 Revenue Analysed | **$15.42M** (delivered orders only) |
-| 🧾 Avg Order Value | **$159.86** per delivered order |
-| ⚠️ Revenue at Risk | **$270k** (canceled + unavailable) |
 
 ---
 
@@ -182,9 +184,10 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer)
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="Footer" />
 
 Made with ❤️ by [**Muhammad Adnan**](https://github.com/MuhammadAdnan586) — Data Scientist | ML Engineer
+
 [LinkedIn](https://www.linkedin.com/in/m-adnan-12a816402) • [Portfolio](https://portfolio-eight-delta-7blam1yft8.vercel.app)
 
 </div>
