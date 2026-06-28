@@ -57,19 +57,27 @@ Each module ends with a data-backed **recommendation card**, turning the analysi
 <div align="center">
 
 **🏠 Overview**
-<img src="WhatsApp%20Image%202026-06-25%20at%204.11.26%20PM.jpeg" width="85%" alt="Dashboard overview"/>
+<img src="images/overview.jpeg" width="85%" alt="Dashboard overview"/>
+
+<br/>
 
 **01 · RFM Customer Segmentation**
-<img src="WhatsApp%20Image%202026-06-25%20at%204.11.27%20PM.jpeg" width="85%" alt="RFM customer segmentation"/>
+<img src="images/rfm.jpeg" width="85%" alt="RFM customer segmentation"/>
+
+<br/>
 
 **02 · Repeat-Purchase & Cohort Retention**
-<img src="WhatsApp%20Image%202026-06-25%20at%204.11.27%20PM%20%281%29.jpeg" width="85%" alt="Cohort retention"/>
+<img src="images/cohort.jpeg" width="85%" alt="Cohort retention"/>
+
+<br/>
 
 **03 · Product Affinity**
-<img src="WhatsApp%20Image%202026-06-25%20at%204.11.27%20PM%20%282%29.jpeg" width="85%" alt="Product affinity"/>
+<img src="images/affinity.jpeg" width="85%" alt="Product affinity"/>
+
+<br/>
 
 **04 · Revenue Leakage Detection**
-<img src="WhatsApp%20Image%202026-06-25%20at%204.11.28%20PM.jpeg" width="85%" alt="Revenue leakage detection"/>
+<img src="images/leakage.jpeg" width="85%" alt="Revenue leakage detection"/>
 
 </div>
 
@@ -99,7 +107,7 @@ Each module ends with a data-backed **recommendation card**, turning the analysi
 ### 📡 API Endpoints
 
 | Method | Endpoint | Description |
-|--------|----------|--------------|
+|--------|----------|-------------|
 | GET | `/api/overview` | Header KPIs — customers, revenue, AOV, revenue at risk |
 | GET | `/api/rfm` | RFM segment distribution |
 | GET | `/api/cohort` | Repeat-purchase / cohort breakdown |
@@ -145,10 +153,16 @@ npm run dev
 
 ```
 Customer-Intelligence-Revenue-Optimization/
+├── images/
+│   ├── overview.jpeg
+│   ├── rfm.jpeg
+│   ├── cohort.jpeg
+│   ├── affinity.jpeg
+│   └── leakage.jpeg
 ├── backend/
 │   ├── main.py            # FastAPI app & routes
 │   ├── database.py        # SQLAlchemy engine / MySQL connection
-│   ├── queries.py          # All SQL: overview, RFM, cohort, affinity, leakage
+│   ├── queries.py         # All SQL: overview, RFM, cohort, affinity, leakage
 │   └── requirements.txt
 ├── frontend/
 │   ├── app/
