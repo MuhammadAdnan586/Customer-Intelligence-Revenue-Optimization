@@ -54,37 +54,25 @@ Each module ends with a data-backed **recommendation card**, turning the analysi
 
 ### 🖼️ Dashboard Preview
 
-<div align="center">
+| 🏠 Overview |
+|---|
+| ![Overview](images/overview.jpeg) |
 
-**🏠 Overview**
+| 01 · RFM Customer Segmentation |
+|---|
+| ![RFM](images/rfm.jpeg) |
 
-<img src="images/overview.jpeg" width="600" alt="Dashboard overview"/>
+| 02 · Repeat-Purchase & Cohort Retention |
+|---|
+| ![Cohort](images/cohort.jpeg) |
 
-<br/>
+| 03 · Product Affinity |
+|---|
+| ![Affinity](images/affinity.jpeg) |
 
-**01 · RFM Customer Segmentation**
-
-<img src="images/rfm.jpeg" width="600" alt="RFM customer segmentation"/>
-
-<br/>
-
-**02 · Repeat-Purchase & Cohort Retention**
-
-<img src="images/cohort.jpeg" width="600" alt="Cohort retention"/>
-
-<br/>
-
-**03 · Product Affinity**
-
-<img src="images/affinity.jpeg" width="600" alt="Product affinity"/>
-
-<br/>
-
-**04 · Revenue Leakage Detection**
-
-<img src="images/leakage.jpeg" width="600" alt="Revenue leakage detection"/>
-
-</div>
+| 04 · Revenue Leakage Detection |
+|---|
+| ![Leakage](images/leakage.jpeg) |
 
 ---
 
