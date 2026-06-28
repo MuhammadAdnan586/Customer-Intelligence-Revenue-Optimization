@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Customer%20Intelligence%20%26%20Revenue%20Optimization&fontSize=28&fontColor=ffffff&fontAlignY=40&desc=Four%20Business%20Questions%20Answered%20Directly%20From%20MySQL&descAlignY=60&descSize=15&descColor=a8d8ea" alt="Header" />
+<img src="images/header.svg" width="100%" alt="Customer Intelligence & Revenue Optimization" />
 
 <br/>
 
@@ -141,6 +141,8 @@ npm run dev
 ```
 Customer-Intelligence-Revenue-Optimization/
 ├── images/
+│   ├── header.svg
+│   ├── footer.svg
 │   ├── overview.jpeg
 │   ├── rfm.jpeg
 │   ├── cohort.jpeg
@@ -184,7 +186,7 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer" alt="Footer" />
+<img src="images/footer.svg" width="100%" alt="Footer" />
 
 Made with ❤️ by [**Muhammad Adnan**](https://github.com/MuhammadAdnan586) — Data Scientist | ML Engineer
 
